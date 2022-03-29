@@ -4,6 +4,10 @@
 header {
   background-color: #d8dce4;
 }
+body{
+  position: absolute;
+
+}
 /* Fim */
 /*  */
 
@@ -21,7 +25,9 @@ header {
   justify-content: space-around;
   align-items: center;
   height: 30vh;
-  margin-left: 1.4vh;
+  margin-left: 2vh;
+  width: 1500px;
+
 }
 /* Fim */
 
@@ -35,8 +41,8 @@ header {
 /* fim */
 #img-cabecalho {
   width: 8.2vw;
-  margin-top: 4vh;
-  margin-left: -0.8vh;
+  margin-top: -10vh;
+  margin-left: -20.8vh;
 }
 
 /* Nav ul do header */
@@ -44,10 +50,10 @@ header {
   width: 38vw;
   display: flex;
   justify-content: space-around;
-  margin-top: -1.2vh;
+  margin-top: -8.5vh;
   list-style: none;
   font-weight: 550;
-  margin-left: 1vh;
+  margin-left: -1vw;
 }
 /* Fim */
 /* Para estudantes : borda para opção de navegação */
@@ -150,6 +156,7 @@ header {
   display: flex;
 
 }
+/* Fim*/
 /* titulo quem somos */
 #titulo-quem-somos {
   color: #475c75;
@@ -203,6 +210,8 @@ header {
   display: flex;
   background: linear-gradient(to bottom, white 95%, #ffd95a 0%);
 }
+/* Fim */
+
 /* Classe que contém todos os cards na parte 3 */
 .div-elementos {
   border: 1px solid rgb(99, 91, 91);
@@ -211,6 +220,7 @@ header {
   padding: 25px;
   margin: 20px;
   border-radius: 20px;
+  margin-left: 60px;
   height: 200px;
   background-color: white;
 }
@@ -229,6 +239,8 @@ header {
   padding: 20px;
   border-radius: 20px;
 }
+/* Fim */
+/* Card parte 3*/
 .div-elementos .texto p {
   color: #6f8eb3;
   font-family: "Inter", sans-serif;
@@ -236,8 +248,7 @@ header {
   font-size: 15px;
   width: 300px;
 }
-
-/* fim */
+/* Fim */
 /* Título h2 da 3 parte */
 #div-right{
     position: relative;
@@ -245,6 +256,8 @@ header {
     width: 700px;
     margin-top: 300px;
 }
+/* Fim */
+/* Título h3 da 3 parte*/
 #titulo-beneficios h2 , #titulo-beneficios h3{
     text-transform: uppercase;
     font-family: "Inter", sans-serif;
@@ -252,11 +265,14 @@ header {
     text-align: center;
     color:#405464;
 }
-
+/* Fim */
+/* Texto h2 da parte 3 */
 .texto h2{
   font-family: "Inter", sans-serif;
   font-size: 18px;
 }
+/* Fim */
+/* Paragrafo da parte 3  */
 #paragrafo-beneficios{
   position: relative;
   width: 450px;
@@ -266,11 +282,14 @@ header {
   font-weight: 300;
   font-size: 16px;
 }
+/* Fim */
+/* Estilização do paragrafo*/
 #paragrafo-beneficios p{
   padding: 5px;
   margin: 5px 0px;
   text-align: center;
 }
+/* Fim */
 
 /* fim titulo h2 3 parte */
 /* titulo h3 parte 3 */
@@ -281,10 +300,11 @@ header {
     text-align: center;
     font-weight: 300;
 
-
 }
+/* Fim */
 
 /* parte 4 */
+/* Div que contem todos os elementos da parte 4*/
 .divzona{
   display: flex;
   background-color: #ffd95a;
@@ -293,14 +313,16 @@ header {
   position: relative;
   margin-top: 63vh;
 
-  
-} 
+} /* Fim */
 
+/* Título do card da parte 4 */
 .texto{
   padding: 5px;
   width:350px;
   margin-left:40px;
 }
+/* Fim */
+/* Estilização do paragrafo*/
 .texto p{
   color:#6f8eb3;
   font-family: sans-serif;
@@ -309,7 +331,8 @@ header {
   width: 300px;
 
 }
-
+/* Fim */
+/* Títilo da parte 4*/
 #sobre-o-app{
   width: 60vw;
   margin-left: -90vh;
@@ -317,10 +340,13 @@ header {
   display: flex;
   flex-direction: column;
 }
+/* Fim */
+/* Estilização do paragrafo parte 4*/
 #p-sobre{
   font-size: 17px;
 }
-
+/* Fim */
+/* classe do h1*/
 .sobre{
   font-family: sans-serif;
   margin-top: 15vh;
@@ -331,17 +357,8 @@ header {
   z-index: 1;
  
 }
-
-.paragraf{
-  
-  width: 45vw;
-  color: #6f8fa1;
-  text-align: center;
-  margin-left: 13vh;
-  font-size: 25px;
-  margin-left: 200px;
-  
-}
+/* Fim */
+/*Primeira imagem da parte 4(play store) */
 
 #imag1{
   width: 17vw;
@@ -349,17 +366,23 @@ header {
   margin-left: 14vh;
   
 }
+/* Fim */
+/*Segunda imagem da parte 4(apple store) */
 #imag2{
   width: 17vw;
   margin-top: 15vh;
   margin-left: 0.5vh;
 
-  
 }
+/* Fim */
+/* Download comporta as imagens */
+
 #download{
   position: relative;
   left: 90px;
 }
+/* Fim */
+/* Imagem do celular d aparte 4 */
 
 #imagcelular{
   float: right;
@@ -368,10 +391,13 @@ header {
   height: 692px;
   border-radius: 40px;
 }
+/* Fim */
+/* Estilização da imagem do celular */
 #imagcelular1{
   width:25vw;
  
 }
+/* Fim */
 /* fim parte 4 */
 /* Início quinta parte */
 #part-5{
@@ -394,22 +420,30 @@ header {
   top: -50px;
 
 }
+/* Fim */
+/* Estilização do h2 */
 #organizadora h2{
   font-size: 45px;
 }
 /* fim */
+/* Estilização do id paragrafo do contato */
 #paragrafo-contato{
   width: 1000px;
 }
+/* fim */
+/* Estilização do paragrafo*/
 #paragrafo-contato .paragrafo-sub{
   font-size: 18px;
 }
-
+/* fim */
+/* Formulario que contem os inputs */
 form{
   display: flex;
   flex-direction: column;
   
 }
+/* fim */
+/* Estilização dos inputs e textarea */
 input, textarea{
   width: 300px;
   padding: 15px 20px 15px 10px;
@@ -417,14 +451,20 @@ input, textarea{
   border: 1px solid rgba(128, 128, 128, 0.644);
   border-radius: 5px;
 }
+/* fim */
+/* Estilização do primeiro input */
 #nome{
   margin-top: -60px;
 }
+/* fim */
+/* estilização do primeiro input (observação)*/
 #descricao{
   
   height: 150px;
   margin-bottom: 15px;
 }
+/* fim */
+/* Estilização do botão */
 #btn-sub{
   width: 300px;
   height: 38px;
@@ -434,8 +474,10 @@ input, textarea{
   color: #ffffff;
   border-radius: 5px;
 }
+/* fim */
 /* Fim quinta parte */
 
+/* Início da sexta parte */
 /* Footer */
 
 footer {
@@ -446,24 +488,33 @@ footer {
   color: white;
   background-color: #405464;
 }
-
+/* fim */
+/* Estilização da lista */
 footer a {
   color: white;
   text-decoration:underline;
   padding: -50px;
 }
+/* fim */
+/* Imagem do logo */
 #logo-footer {
   width: 200px;
 }
+/* fim */
+/* classe dos itens */
 .itens-estudante {
   margin: 14px;
 }
+/* fim */
+/* Lista ordenada */
 ul {
   font-size: 17px;
   font-weight: 500;
   margin: 20px;
   margin-left: 60px;
 }
+/* fim */
+/* Estilização do h2*/
 .sub-nav {
   font-family: "Inter", sans-serif;
   font-size: 18px;
@@ -471,29 +522,63 @@ ul {
   position: relative;
   font-weight: 800;
 }
-
+/* fim */
+/* Estilização da lista*/
 footer li {
   margin: 15px 0px;
   font-family: "Inter", sans-serif;
   font-weight: 300;
   font-size: 17px;
 }
-
+/* fim */
+/* estilização do logo */
 #footer-div {
   display: flex;
   justify-content: space-around;
   margin-top: -100vh;
   height: 350px;
+  left: 20px;
+  position: relative;
   width: 95vw;
   align-items: center;
-  border: solid black 2px;
+
 }
+/* fim */
+/* Estilização da lista */
 #parcerias{
   margin-top: 30px;
 }
+/* fim */
+/* estilização do logo */
 #footer-div-logo {
   margin-top: 5.5%;
 }
+/* fim */
+/* Estilização do h2 */
 #perg-fre {
   margin: auto 0px auto 0px;
+  margin-top: 60px;
+  font-family: "Inter", sans-serif;
+  text-decoration: underline;
 }
+/* fim */
+/* Estilização do segundo h2 */
+#nos-encontre{
+  font-family: "Inter", sans-serif;
+  font-size: 11px;
+  position: relative;
+  top: -40px;
+  left: 20px;
+}
+/* fim */
+/* estilização da lista */
+.itens-icon{
+  width: 150px;
+}
+/* fim */
+/* classe dos icones*/
+.icones{
+  margin: 5px;
+}
+/* fim */
+/* fim da parte sexta parte*/
