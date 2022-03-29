@@ -103,7 +103,7 @@ header {
 /* divheader1 */
 
 /* Paragrafo-sub-head */
-#paragrafo-sub-head {
+.paragrafo-sub {
   width: 35.9vw;
   font-size: 20px;
   margin: 2rem auto;
@@ -194,9 +194,11 @@ header {
 #part-3 {
   position: relative;
   top: 100vh;
-  left: -33vw;
-  height: 585px;
+  left: -35vw;
+  height: 100%;
+  min-width: 100%;
   display: flex;
+  background: linear-gradient(to bottom, white 95%, #ffd95a 0%);
 }
 /* Classe que contém todos os cards na parte 3 */
 .div-elementos {
@@ -207,6 +209,7 @@ header {
   margin: 20px;
   border-radius: 20px;
   height: 200px;
+  background-color: white;
 }
 /* Fim */
 /* Classe que contém h2 e paragrafo na 3 parte */
@@ -219,6 +222,9 @@ header {
 /* classe imagem 3 parte */
 .imagem {
   margin-left: 30px;
+  background-color: #fff9ee;
+  padding: 20px;
+  border-radius: 20px;
 }
 .div-elementos .texto p {
   color: #6f8eb3;
@@ -231,7 +237,6 @@ header {
 /* fim */
 /* Título h2 da 3 parte */
 #div-right{
-    border: 2px solid black;
     position: relative;
     left: 15px;
     width: 700px;
@@ -245,6 +250,24 @@ header {
 
 
 }
+.texto h2{
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+#paragrafo-beneficios{
+  position: relative;
+  width: 450px;
+  margin: auto;
+  color: #6f8eb3;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+#paragrafo-beneficios p{
+  padding: 5px;
+  margin: 5px 0px;
+  text-align: center;
+}
 
 /* fim titulo h2 3 parte */
 /* titulo h3 parte 3 */
@@ -257,6 +280,100 @@ header {
 
 
 }
+
+/* parte 4 */
+.divzona{
+  display: flex;
+  background-color: #ffd95a;
+  height: 135vh;
+  width: 100vw;
+  position: relative;
+  margin-top: 63vh;
+
+  
+} 
+
+.texto{
+  padding: 5px;
+  width:350px;
+  margin-left:40px;
+}
+.texto p{
+  color:#6f8eb3;
+  font-family: sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  width: 300px;
+
+}
+
+#sobre-o-app{
+  width: 60vw;
+  margin-left: -90vh;
+  margin-top: 40vh;
+  display: flex;
+  flex-direction: column;
+}
+#p-sobre{
+  font-size: 17px;
+}
+
+#sobre{
+  font-family: sans-serif;
+  margin-top: 15vh;
+  font-size: 45px;
+  font-weight: bolder;
+  color: #475c75;
+  text-align: center;
+  z-index: 1;
+ 
+}
+
+.paragraf{
+  
+  width: 45vw;
+  color: #6f8fa1;
+  text-align: center;
+  margin-left: 13vh;
+  font-size: 25px;
+  margin-left: 200px;
+  
+}
+
+#imag1{
+  width: 17vw;
+  margin-top: 10vh;
+  margin-left: 14vh;
+  
+}
+#imag2{
+  width: 17vw;
+  margin-top: 15vh;
+  margin-left: 0.5vh;
+
+  
+}
+#download{
+  position: relative;
+  left: 90px;
+}
+
+#imagcelular{
+  float: right;
+  margin-left: 60px;
+  margin-top: 80px;
+  height: 692px;
+  border-radius: 40px;
+}
+#imagcelular1{
+  width:25vw;
+ 
+}
+/* fim parte 4 */
+/* Início quinta parte */
+
+/* Fim quinta parte */
+
 /* Footer */
 
 footer {
@@ -264,7 +381,6 @@ footer {
   top: 100%;
   width: 100%;
   height: 59vh;
-  border: 2px solid black;
   color: white;
   background-color: #405464;
 }
